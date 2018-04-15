@@ -9,21 +9,21 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
  .postcode{
   font-size:13px;
   color: #555;
   border:none;
   background-color: #ffff;
-  width: 15.5%;
+  width: 23%;
   margin-top :5px;
-  
 }
 
 @media screen and (max-width: 600px) {
   .dropdown {
     width: 100%;
+    flex-wrap: wrap;
   }
   .postcode{
     width: 100%;
